@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+ auth-api-service:
+  image: miverboven/python-api-http-basic
+  ports:
+    - "8000:8000"
